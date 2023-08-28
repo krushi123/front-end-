@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+body 
+{   position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(1.png);
+    font-family: 'Baloo Bhai', cursive;
+}
+.left 
+{  display: inline-block;
+    left: 2px;
+    top: 2px;
+    font-size: 20px;
+    
+
+}
+.right
+{   position: absolute; 
+    right: 0px;
+    display: inline-block;
+}
+.mid
+{
+    position: absolute;
+    left: 30%;
+    text-align: left;
+    display: inline-block;
+}
+.navbar
+{
+    display: inline;
+}
+.navbar li 
+{
+    display: inline;
+}
+.navbar li a 
+{
+    color: rgb(78, 14, 240);
+    text-decoration: none;
+    padding: 30px 30px;
+    font-size: 30px;
+    
+}
+.navbar li a:hover 
+{
+    color:black;
+    text-decoration: underline;
+}
+.left img
+{
+        width: 122px;
+        filter: invert(100%);
+        position: relative;
+        display: inline;
+}
+.btn
+{
+    font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: gray;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+}
+.btn:hover
+{
+    background-color: black;
+}
+.container {
+        border: 2px solid white;
+        position: relative;
+        top: 40%;
+        left: 30%;
+        width: 35%;
+        border-radius: 28px;
+        color: rgb(244, 239, 242);
+
+        
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .gender 
+    {
+        font-family: 'Baloo Bhai', cursive;
+        
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        background-color: aliceblue;
+        color: black;
+    }
+    
+    
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="2.png"/>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home    </a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Skills</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+          </div>
+    
+    </header>
+    <div class="container">
+        <h1>If you have interste,then fill this form</h1>
+       
+        
+    
+            <div class="form-group">
+                <input type="text" placeholder="enter your name"/>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="enter your Address here"></input>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            
+            <div class="gender" background-color="white">
+                Choose Your Gender
+                    <div><input type="radio" value="m" name="gender"/>Male</div>
+                    <div><input type="radio" value="f" name="gender"/>Female</div>
+                    <div><input type="radio" value="o" name="gender"/>Other</div>
+            </div>
+                   
+                  
+                   
+            
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+           
+            
+
+            
+        
+        
+    </form>
+    </div>
+        
+</body>
+</html>
